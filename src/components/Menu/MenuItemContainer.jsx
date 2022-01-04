@@ -10,6 +10,7 @@ const MenuItemContainer = styled.div`
 
   font-family: "Nunito Sans";
   font-size: 16px;
+  line-height: 1;
 
   .item-name, .price {
     font-weight: bold;
