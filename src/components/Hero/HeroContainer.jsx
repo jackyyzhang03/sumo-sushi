@@ -2,11 +2,13 @@ import styled from "styled-components";
 
 const HeroContainer = styled.div`
   font-family: "Nunito Sans";
+  height: 100vh;
+  width: 100vw;
 
   img {
-    height: 100vh;
-    width: 100vw;
-    object-fit: cover;
+    height: 100vh !important;
+    width: 100vw !important;
+    object-fit: cover !important;
     filter: brightness(40%) contrast(110%);
   }
 
