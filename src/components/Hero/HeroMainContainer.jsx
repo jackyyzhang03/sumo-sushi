@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const HeroContainer = styled.div`
+const HeroMainContainer = styled.div`
   font-family: "Nunito Sans";
   height: 100vh;
   width: 100vw;
@@ -49,4 +49,4 @@ const HeroContainer = styled.div`
   }
 `;
 
-export default HeroContainer;
+export default HeroMainContainer;

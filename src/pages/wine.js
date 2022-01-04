@@ -2,13 +2,13 @@ import * as React from "react";
 import Hero from "../components/Hero/Hero";
 import Nav from "../components/Nav/Nav";
 
-const IndexPage = () => {
+const WinePage = () => {
   return (
     <main>
       <Nav />
-      <Hero />
+      <Hero url="/wine" />
     </main>
   );
 };
 
-export default IndexPage;
+export default WinePage;

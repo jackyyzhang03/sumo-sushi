@@ -8,6 +8,12 @@
 }
 
 @font-face {
+  font-family: 'Nunito Sans';
+  src: url(../fonts/NunitoSans-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
   font-family: 'Satisfy';
   src: url(../fonts/Satisfy-Regular.ttf)
 }
