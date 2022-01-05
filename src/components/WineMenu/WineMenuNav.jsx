@@ -10,6 +10,9 @@ const WineMenuNav = (props) => {
         <span
           className={props.activeTabIndex === index ? "active" : ""}
           onClick={() => props.onClick(index)}
+          onKeyDown={() => props.onClick(index)}
+          role="button"
+          tabIndex={0}
         >
           {name}
         </span>

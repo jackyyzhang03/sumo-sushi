@@ -12,7 +12,7 @@ const Hero = (props) => {
             src="../../images/top-view-sushi-set-with-soy-sauce-chopsticks-wooden-serving-board.jpg"
             placeholder="blurred"
             alt=""
-            layout="full-width"
+            layout="fullWidth"
           />
         </HeroThinContainer>
       );
@@ -23,7 +23,7 @@ const Hero = (props) => {
             src="../../images/flat-lay-bottle-wine-surrounded-by-corks-red-grapes.jpg"
             placeholder="blurred"
             alt=""
-            layout="full-width"
+            layout="fullWidth"
           />
         </HeroThinContainer>
       );
@@ -34,7 +34,7 @@ const Hero = (props) => {
             src="../../images/sushi-set-with-various-types-sushi-wooden-desk-close-up-view.jpg"
             placeholder="blurred"
             alt=""
-            layout="full-width"
+            layout="fullWidth"
           />
         </HeroThinContainer>
       );
