@@ -35,12 +35,12 @@ const HeroMainContainer = styled.div`
     font-family: Satisfy;
     font-size: 42px;
     margin: 0 auto -90px auto;
-    animation: fade 1s ease, slide-up 1s ease;
+    animation: fade 1s ease 1s, slide-up 1s ease 1s;
   }
 
   h1 {
     font-size: 110px;
-    animation: fade 1.5s ease, slide-up 1.5s ease;
+    animation: fade 1.5s ease 1s, slide-up 1.5s ease 1s;
   }
 
   h1::after {
