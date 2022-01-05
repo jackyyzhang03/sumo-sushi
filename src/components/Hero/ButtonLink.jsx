@@ -14,7 +14,7 @@ const ButtonLink = styled(Link)`
   font-size: 16px;
   vertical-align: middle;
   line-height: 60px;
-  animation: fade 4s ease, slide-up 3s ease;
+  animation: fade 3s ease, slide-up 2.5s ease;
 
   &:hover {
     outline-width: 2px;

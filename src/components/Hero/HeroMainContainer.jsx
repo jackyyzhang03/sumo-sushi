@@ -34,12 +34,12 @@ const HeroMainContainer = styled.div`
     font-family: Satisfy;
     font-size: 42px;
     margin: 0 auto -90px auto;
-    animation: fade 3s ease, slide-up 2s ease;
+    animation: fade 2s ease, slide-up 1.5s ease;
   }
 
   h1 {
     font-size: 110px;
-    animation: fade 3.5s ease, slide-up 2.5s ease;
+    animation: fade 2.5s ease, slide-up 2s ease;
   }
 
   h1::after {
