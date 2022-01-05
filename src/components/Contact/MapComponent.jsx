@@ -23,7 +23,7 @@ function MapComponent() {
       mapStyle="mapbox://styles/mapbox/light-v10"
       onViewportChange={setViewport}
       mapboxApiAccessToken={MAPBOX_TOKEN}
-      maxPitch="0"
+      maxPitch={0}
     >
       <Marker
         latitude={45.505566367443315}
