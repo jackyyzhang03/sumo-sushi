@@ -20,8 +20,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: `Sumo Sushi`,
+        short_name: `Sumo Sushi`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#bc002d`,
