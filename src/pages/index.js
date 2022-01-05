@@ -9,7 +9,7 @@ const IndexPage = () => {
       <Helmet htmlAttributes={{lang: "en",}}>
         <meta charSet="utf-8" />
         <title>Sumo Sushi — Home</title>
-        <meta name="description" name="Best Sushi in Montreal" />
+        <meta name="description" content="Best Sushi in Montreal" />
       </Helmet>
       <Nav />
       <Hero />

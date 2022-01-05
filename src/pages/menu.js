@@ -10,7 +10,7 @@ const MenuPage = () => {
       <Helmet htmlAttributes={{lang: "en",}}>
         <meta charSet="utf-8" />
         <title>Sumo Sushi — Menu</title>
-        <meta name="description" name="Best Sushi in Montreal" />
+        <meta name="description" content="Best Sushi in Montreal" />
       </Helmet>
       <Nav />
       <Hero url="/menu" />
