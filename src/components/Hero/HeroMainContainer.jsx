@@ -28,16 +28,19 @@ const HeroMainContainer = styled.div`
   h2 {
     color: white;
     display: block;
+    animation: fade 1s ease, slide-up 1s ease;
   }
 
   h2 {
     font-family: Satisfy;
     font-size: 42px;
     margin: 0 auto -90px auto;
+    animation: fade 1s ease, slide-up 1s ease;
   }
 
   h1 {
     font-size: 110px;
+    animation: fade 1.5s ease, slide-up 1.5s ease;
   }
 
   h1::after {

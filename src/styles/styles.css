@@ -18,6 +18,24 @@
   src: url(../fonts/Satisfy-Regular.ttf)
 }
 
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 body {
   margin: 0;
 }
