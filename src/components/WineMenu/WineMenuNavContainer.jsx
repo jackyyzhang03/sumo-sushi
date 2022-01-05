@@ -11,11 +11,13 @@ const WineMenuNavContainer = styled.div`
     font-size: 16px;
     text-transform: uppercase;
     cursor: pointer;
+    transition: text-decoration-color 0.3s;
+    text-decoration: underline white;
   }
 
   span:hover,
   .active {
-    text-decoration: underline;
+    text-decoration-color: black;
   }
 `;
 

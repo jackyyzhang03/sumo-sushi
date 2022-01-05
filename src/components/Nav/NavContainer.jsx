@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const NavContainer = styled.div`
+const NavContainer = styled.nav`
   height: 115px;
   background-color: white;
   display: grid;
@@ -17,17 +17,15 @@ const NavContainer = styled.div`
   a {
     color: black;
     text-decoration: none;
+    border-bottom: 3px solid white;
     width: fit-content;
     margin: auto;
+    transition: border-bottom 0.3s;
   }
 
-  .page-link:hover::after, .active::after {
-    display: block;
-    margin: auto;
-    content: "";
-    width: 100%;
-    height: 3px;
-    background-color: var(--venetian-red);
+  .page-link:hover,
+  .active {
+    border-bottom: 3px solid var(--venetian-red);
   }
 `;
 
