@@ -21,12 +21,6 @@ const ButtonLink = styled(Link)`
     border-width: 2px;
     background-color: rgba(255, 255, 255, 0.1);
   }
-
-  @media only screen and (max-width: 425px) {
-    height: 55px;
-    line-height: 55px;
-    font-size: 14px;
-  }
 `;
 
 export default ButtonLink;
