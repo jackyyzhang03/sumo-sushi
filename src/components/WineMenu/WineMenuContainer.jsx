@@ -6,7 +6,7 @@ const WineMenuContainer = styled(MenuContainer)`
     margin: 30px 0 30px 0;
   }
   .group {
-    width: 90%;
+    width: 70%;
     grid-column-gap: 0px;
   }
 

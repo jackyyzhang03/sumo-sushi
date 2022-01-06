@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import Hero from '../components/Hero/Hero';
-import Nav from '../components/Nav/Nav';
 import Menu from '../components/Menu/Menu';
+import Header from '../components/Header/Header';
 
 function MenuPage() {
   return (
@@ -12,7 +12,7 @@ function MenuPage() {
         <title>Sumo Sushi — Menu</title>
         <meta name="description" content="Best Sushi in Montreal" />
       </Helmet>
-      <Nav />
+      <Header />
       <Hero url="/menu" />
       <Menu />
     </main>

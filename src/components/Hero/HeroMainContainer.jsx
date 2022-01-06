@@ -14,14 +14,15 @@ const HeroMainContainer = styled.div`
 
   .hero-text {
     position: absolute;
-    top: 25%;
+    top: 30%;
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     position: absolute;
-    width: fit-content;
+    max-width: fit-content;
+    width: 80%;
   }
 
   h1,
@@ -48,6 +49,26 @@ const HeroMainContainer = styled.div`
     width: 100%;
     height: 3px;
     background-color: white;
+  }
+
+  @media only screen and (max-width: 768px) {
+    h2 {
+      font-size: 26px;
+      margin: 0 auto -42px auto;
+    }
+    h1 {
+      font-size: 72px;
+      line-height: 1;
+    }
+    h1::after {
+      margin-top: 24px;
+    }
+  }
+
+  @media only screen and (max-height: 550px) {
+    .hero-text {
+      display: none;
+    }
   }
 `;
 

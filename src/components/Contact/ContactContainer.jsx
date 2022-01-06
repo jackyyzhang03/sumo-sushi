@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 const ContactContainer = styled.div`
   display: flex;
-  padding: 60px;
   max-width: 1200px;
-  margin: auto;
+  width: 80%;
+  margin: 50px auto 50px auto;
 
   .contact-info,
   .map {
@@ -39,13 +39,26 @@ const ContactContainer = styled.div`
   }
 
   .map {
-    margin-left: 100px;
+    margin-left: 10%;
   }
 
   hr {
     background-color: var(--venetian-red);
     border: none;
     height: 3px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+    height: 750px;
+    .map {
+      margin-left: 0;
+      margin-top: 30px;
+      height: 100px;
+    }
+    .contact-info {
+      max-width: unset;
+    }
   }
 `;
 

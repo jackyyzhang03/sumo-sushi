@@ -4,7 +4,8 @@ import styled from "styled-components";
 const ButtonLink = styled(Link)`
   display: block;
   height: 60px;
-  width: 300px;
+  width: 80%;
+  max-width: 300px;
   outline: 1px solid white;
   border-radius: 10px;
   color: white;
@@ -19,6 +20,12 @@ const ButtonLink = styled(Link)`
   &:hover {
     outline-width: 2px;
     background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  @media only screen and (max-width: 425px) {
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
   }
 `;
 

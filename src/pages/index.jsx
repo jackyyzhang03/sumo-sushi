@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
+import Header from '../components/Header/Header';
 import Hero from '../components/Hero/Hero';
-import Nav from '../components/Nav/Nav';
 
 function IndexPage() {
   return (
@@ -11,7 +11,7 @@ function IndexPage() {
         <title>Sumo Sushi — Home</title>
         <meta name="description" content="Best Sushi in Montreal" />
       </Helmet>
-      <Nav />
+      <Header />
       <Hero />
     </main>
   );

@@ -19,6 +19,14 @@ const WineMenuNavContainer = styled.div`
   .active {
     text-decoration-color: black;
   }
+
+  @media only screen and (max-width: 425px) {
+    span {
+      font-size: 14px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 `;
 
 export default WineMenuNavContainer;
