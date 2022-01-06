@@ -6,7 +6,7 @@ const ButtonLink = styled(Link)`
   height: 60px;
   width: 80%;
   max-width: 300px;
-  outline: 1px solid white;
+  border: 1px solid white;
   border-radius: 10px;
   color: white;
   text-decoration: none;
@@ -18,7 +18,7 @@ const ButtonLink = styled(Link)`
   animation: fade 3s ease, slide-up 2.5s ease;
 
   &:hover {
-    outline-width: 2px;
+    border-width: 2px;
     background-color: rgba(255, 255, 255, 0.1);
   }
 
