@@ -3,15 +3,15 @@ import * as React from "react";
 const MenuItemContent = (props) => {
   return (
     <>
-      <p>
-        {props.name && <span className="item-name">{props.name}</span>}
+    <div className="row">
+        {props.name && <p className="item-name">{props.name}</p>}
         {props.secondaryPrice && (
-          <span className={"price fixed"}>{props.secondaryPrice}</span>
+          <p className={"price fixed"}>{props.secondaryPrice}</p>
         )}
-        <span className={props.secondaryPrice ? "price fixed" : "price"}>
+        <p className={props.secondaryPrice ? "price fixed" : "price"}>
           {props.price}
-        </span>
-      </p>
+        </p>
+      </div>
       {props.children && <p className="description">{props.children}</p>}
     </>
   );

@@ -40,22 +40,34 @@ const Menu = () => {
       </div>
       <hr></hr>
       <h1>Sushi</h1>
-        <MenuItem header price="Sushi (2 pc)" secondaryPrice="Sashimi (3 pc)" />
-        <MenuItem name="SAKE Salmon" price="$6.00" secondaryPrice="$9.00" />
-        <MenuItem name="MAGURO Tuna" price="$7.00" secondaryPrice="$10.00" />
-        <MenuItem name="HAMACHI Yellow Tail" price="$8.00" secondaryPrice="$11.00" />
-        <MenuItem name="KAIBASHIRA Scallop" price="$10.00" secondaryPrice="$12.00" />
-        <MenuItem name="UNI Sea Urchin" price="$12.00" secondaryPrice="$15.00" />
-        <MenuItem name="TAKO Octopus" price="$6.00" secondaryPrice="$8.00" />
+      <MenuItem header price="Sushi (2 pc)" secondaryPrice="Sashimi (3 pc)" />
+      <MenuItem name="SAKE Salmon" price="$6.00" secondaryPrice="$9.00" />
+      <MenuItem name="MAGURO Tuna" price="$7.00" secondaryPrice="$10.00" />
+      <MenuItem
+        name="HAMACHI Yellow Tail"
+        price="$8.00"
+        secondaryPrice="$11.00"
+      />
+      <MenuItem
+        name="KAIBA­SHIRA Scallop"
+        price="$10.00"
+        secondaryPrice="$12.00"
+      />
+      <MenuItem name="UNI Sea Urchin" price="$12.00" secondaryPrice="$15.00" />
+      <MenuItem name="TAKO Octopus" price="$6.00" secondaryPrice="$8.00" />
       <hr></hr>
       <h1>Maki</h1>
       <MenuItem header price="Roll (6 pc)" secondaryPrice="Hand roll (1 pc)" />
-        <MenuItem name="CALIFORNIA MAKI" price="$6.95" secondaryPrice="$4.95" />
-        <MenuItem name="SAKE MAKI" price="$6.95" secondaryPrice="$5.95" />
-        <MenuItem name="SPICY TUNA MAKI" price="$8.95" secondaryPrice="$6.95" />
-        <MenuItem name="SPICY SALMON MAKI" price="$7.95" secondaryPrice="$5.95" />
-        <MenuItem name="SPICY SCALLOP MAKI" price="$8.95" secondaryPrice="$6.95" />
-        <MenuItem name="SNOW CRAB MAKI" price="$10.95" secondaryPrice="$7.95" />
+      <MenuItem name="CALI­FORNIA MAKI" price="$6.95" secondaryPrice="$4.95" />
+      <MenuItem name="SAKE MAKI" price="$6.95" secondaryPrice="$5.95" />
+      <MenuItem name="SPICY TUNA MAKI" price="$8.95" secondaryPrice="$6.95" />
+      <MenuItem name="SPICY SALMON MAKI" price="$7.95" secondaryPrice="$5.95" />
+      <MenuItem
+        name="SPICY SCALLOP MAKI"
+        price="$8.95"
+        secondaryPrice="$6.95"
+      />
+      <MenuItem name="SNOW CRAB MAKI" price="$10.95" secondaryPrice="$7.95" />
     </MenuContainer>
   );
 };

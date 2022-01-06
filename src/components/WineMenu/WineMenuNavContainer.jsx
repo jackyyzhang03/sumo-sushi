@@ -5,7 +5,7 @@ const WineMenuNavContainer = styled.div`
   justify-content: center;
   margin: auto;
   span {
-    margin: 0px 25px 25px 0px;
+    padding: 5px;
     font-family: "Nunito Sans";
     font-weight: bold;
     font-size: 16px;
@@ -18,6 +18,14 @@ const WineMenuNavContainer = styled.div`
   span:hover,
   .active {
     text-decoration-color: black;
+  }
+
+  @media only screen and (max-width: 425px) {
+    span {
+      font-size: 14px;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 `;
 
