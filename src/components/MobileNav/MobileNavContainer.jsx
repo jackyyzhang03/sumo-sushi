@@ -29,8 +29,7 @@ const MobileNavContainer = styled.nav`
   }
 
   &.hidden {
-    transform: translateX(-100%);
-    display: hidden;
+    display: none;
   }
 
   .links {
