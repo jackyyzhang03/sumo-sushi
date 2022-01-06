@@ -11,14 +11,16 @@ const HeaderContainer = styled.div`
   z-index: 10;
 
   .hamburger {
+    height: 78px;
+    width: 78px;
     display: none;
     position: absolute;
-    left: 25px;
-    top: 25px;
+    left: 0;
+    top: 0;
     transition: all 0.3s;
   }
 
-  .hamburger:hover {
+  .hamburger:hover, .active {
     color: var(--venetian-red);
     cursor: pointer;
   }
@@ -26,7 +28,9 @@ const HeaderContainer = styled.div`
   @media only screen and (max-width: 768px) {
     min-height: 78px;
     .hamburger {
-      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
     .nav {
       display: none;

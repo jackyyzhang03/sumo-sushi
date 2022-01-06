@@ -5,7 +5,7 @@ const WineMenuNavContainer = styled.div`
   justify-content: center;
   margin: auto;
   span {
-    margin: 0px 25px 25px 0px;
+    padding: 5px;
     font-family: "Nunito Sans";
     font-weight: bold;
     font-size: 16px;

@@ -4,12 +4,12 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const NavButton = (props) => {
   return (
+    <div className={props.active ? "hamburger active" : "hamburger"} onClick={props.onClick}>
       <FontAwesomeIcon
         icon={faBars}
-        onClick={props.onClick}
         size="2x"
-        className="hamburger"
       />
+    </div>
   );
 };
 

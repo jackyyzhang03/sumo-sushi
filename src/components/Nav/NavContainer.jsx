@@ -5,12 +5,12 @@ const NavContainer = styled.nav`
   height: 115px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 300px;
+  grid-column-gap: 280px;
   text-align: center;
   align-content: center;
   font-family: "Nunito Sans";
   text-transform: uppercase;
-  width: 100%;
+  width: 90%;
 
   .group {
     display: flex;

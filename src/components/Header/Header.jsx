@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <HeaderContainer>
-      <NavButton onClick={toggleActive} />
+      <NavButton active={active} onClick={toggleActive} />
       <Logo />
       <MobileNav active={active} onClick={toggleActive} />
       <Nav />
