@@ -1,10 +1,16 @@
 import styled from "styled-components";
 
 const ContactContainer = styled.div`
-  display: flex;
-  max-width: 1200px;
-  width: 80%;
-  margin: 50px auto 50px auto;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  .content {
+    display: flex;
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto 0 auto;
+  }
 
   .contact-info,
   .map {
@@ -49,11 +55,12 @@ const ContactContainer = styled.div`
   }
 
   @media only screen and (max-width: 768px) {
-    flex-direction: column;
-    height: 750px;
+    .content {
+      flex-direction: column;
+      height: 750px;
+    }
     .map {
-      margin-left: 0;
-      margin-top: 30px;
+      margin: 10px 0 30px 0;
       height: 100px;
     }
     .contact-info {

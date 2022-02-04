@@ -47,11 +47,17 @@ const WineMenu = () => {
       <>
         <h2>Beer</h2>
         <div className="group">
-          <MenuItem name="Imported Beer">Asahi, Sapporo, Kirin, Heineken (500 ml can)</MenuItem>
+          <MenuItem name="Imported Beer">
+            Asahi, Sapporo, Kirin, Heineken (500 ml can)
+          </MenuItem>
           <MenuItem name="Import Selection">Sapporo, Kirin (650 ml)</MenuItem>
-          <MenuItem name="Domestic Selection">Canadian, Coors Light (650 ml)</MenuItem>
+          <MenuItem name="Domestic Selection">
+            Canadian, Coors Light (650 ml)
+          </MenuItem>
           <MenuItem name="Import Selection">Asahi (640 ml)</MenuItem>
-          <MenuItem name="Import Selection">Asahi Heineken (500 ml can)</MenuItem>
+          <MenuItem name="Import Selection">
+            Asahi Heineken (500 ml can)
+          </MenuItem>
         </div>
       </>
     );
@@ -74,13 +80,15 @@ const WineMenu = () => {
 
   return (
     <WineMenuContainer>
-      <h1>Wine and Beer</h1>
-      <hr></hr>
-      <WineMenuNav
-        activeTabIndex={activeTabIndex}
-        onClick={setActiveTabIndex}
-      />
-      {WineTabs[activeTabIndex]}
+      <div className="content">
+        <h1>Wine and Beer</h1>
+        <hr></hr>
+        <WineMenuNav
+          activeTabIndex={activeTabIndex}
+          onClick={setActiveTabIndex}
+        />
+        {WineTabs[activeTabIndex]}
+      </div>
     </WineMenuContainer>
   );
 };
