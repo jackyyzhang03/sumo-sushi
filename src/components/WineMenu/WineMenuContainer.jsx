@@ -2,8 +2,11 @@ import styled from "styled-components";
 import MenuContainer from "../Menu/MenuContainer";
 
 const WineMenuContainer = styled(MenuContainer)`
-  max-width: 600px;
-  min-width: 300px;
+  .content {
+    padding: 60px 0 60px 0;
+    max-width: 600px;
+    min-width: 300px;
+  }
 
   hr {
     margin: 30px 0 30px 0;

@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 const MenuContainer = styled.div`
-  padding: 60px 0 60px 0;
-  width: 80%;
-  max-width: 750px;
-  margin: auto;
+  background-color: white;
+  width: 100%;
 
   h1 {
     font-family: Didot;
@@ -12,6 +10,13 @@ const MenuContainer = styled.div`
     font-size: 36px;
     text-align: center;
     margin: 0.5em;
+  }
+
+  .content {
+    padding: 60px 0 60px 0;
+    width: 80%;
+    max-width: 750px;
+    margin: auto;
   }
 
   .group {
@@ -31,7 +36,9 @@ const MenuContainer = styled.div`
   }
 
   @media only screen and (max-width: 768px) {
-    max-width: 500px;
+    .content {
+      max-width: 500px;
+    }
     .group {
       display: flex;
       flex-flow: column wrap;
